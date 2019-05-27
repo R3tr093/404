@@ -1,0 +1,119 @@
+body
+{
+    height: 900px;
+    overflow: none;
+}
+
+.wrappers
+{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    width: 50%;
+    
+}
+
+#gitCommit
+{
+    text-align: center;
+    position: relative;
+    top: 65px;
+    padding-left: 25%;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.infos
+{
+    padding-left: 25%;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#retour
+{
+    margin-left: 25%;
+    background: goldenrod;
+    color: aliceblue;
+    font-family: cursive;
+    border: antiquewhite 2px solid;
+    border-radius: 16px;
+    width: 150px;
+    height: 70px;
+    box-shadow: 10px 5px 5px grey;
+
+    
+}
+
+a
+{
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+ /* The animation code */
+@keyframes example {
+  0%   {width: 150px; height: 150px; background-color:red; left:0px; top:0px;}
+  15%  {width: 280px; height: 280px; background-color:yellow; left:-200px; top:90px;}
+  25%  {width: 80px; height: 80px; background-color:blue; left:450px; top:90px;}    
+  35%  {width: 600px; height: 600px; background-color:lightgoldenrodyellow; left:100px; top:-190px;}    
+  45%  {width: 80px; height: 80px; background-color:hotpink; left:-400px; top:180px;} 
+  50%  {width: 120px; height: 120px; background-color:blue; left:200px; top:-180;}
+  55%  {width: 180px; height: 180px; background-color:gray; left:980px; top:-180px;}     
+  60%  {width: 280px; height: 280px; background-color:indianred; left:-120px; top:-180px;}     
+  65%  {width: 580px; height: 580px; background-color:cornflowerblue; left:900px; top:340px;}     
+  70%  {width: 50px; height: 50px; background-color:black; left:50px; top:0px;}     
+  75%  {width: 190px; height: 190px; background-color:antiquewhite; left:760px; top:-200px;}
+  8%   {width: 350px; height: 350px; background-color:orangered; left:-760px; top:120px;}
+  85%  {width: 80px; height: 80px; background-color:pink; left:320px; top:-200px;}
+  90%  {width: 170px; height: 170px; background-color:purple; left:90px; top:0px;}
+  95%  {width: 380px; height: 380px; background-color:lightcoral; left:560px; top:-300px;}
+  100% { width: 80px; height: 80px; background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+#retour{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+} 
+
+
+@keyframes body {
+  0%   {background-color:red;}
+  10%  {background-color:blue;}
+  15%  {background-color:deeppink;}
+  20%  {background-color:yellow;}
+  25%  {background-color:purple}
+  30%  {background-color:burlywood;}
+  35%  {background-color:black;}
+  40%  {background-color:blue;}
+  45%  {background-color:pink;}
+  50%  {background-color:grey;}
+  55%  {background-color:greenyellow;}
+  60%  {background-color:mediumvioletred;}
+  65%  {background-color:red;}
+  70%  {background-color:cornflowerblue;}
+  75%  {background-color:cornsilk;}
+  80%  {background-color:coral;}
+  85%  {background-color:royalblue;}
+  90%  {background-color:yellow;}
+  95%  {background-color:orangered;}
+  100%  {background-color:white;}
+
+}
+
+#face
+{
+    
+  animation-name: body;
+  animation-duration: 6s;
+    padding: 10px;
+} 
+}
