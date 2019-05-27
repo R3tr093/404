@@ -1,2 +1,2 @@
 # 404
-Another exercice of my BeCode formation !
+<p><em>Another exercice of my BeCode formation !</em></p>
